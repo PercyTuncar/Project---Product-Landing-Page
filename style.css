@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    display: block;
+    border: 1px solid red;
+    top: 0;
+    position: fixed;
+  
+}
+
+@media (max-width: 600px){
+
+}
+
+#form{
+    display: flex;
+    align-content: center;
+}
