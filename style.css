@@ -1,20 +1,194 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
 }
 #nav-bar{
+    
+
     display: block;
-    border: 1px solid red;
     top: 0;
     position: fixed;
-  
+    background-color: black;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0px 5px 12px #707070;
+
 }
+#nav-bar ul{
+    right: 0;
+    margin-left: 75%;
+}
+h2{
+    text-align: center  ;
+}
+#search{
+    text-align: center;
+}
+#title{
+    margin-top:70px;
+    text-align: center;
+    font-size: 40px;
+}
+#visión{
+border: 1px solid red;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+form h4{
+    display: list-item;
+    list-style: none;
 
+}
+#email{
+   margin: auto;
+
+}
+.centrar-form form{
+    text-align: center;
+    padding-bottom: 15px;
+   }
+   .nosotros{
+    box-sizing: border-box;
+       text-align: start;
+       color: #707070;
+       width: 90%;
+       margin-left: 5%;
+       margin-bottom: 30px;
+       font-size: 32px;
+   }
+   .nosotros p{
+ 
+   }
+#img{
+    box-sizing: border-box;
+    width: 600px;
+    float: left;
+}
+.video{
+    border: 1px solid crimson;
+    width:100%;
+    float:left;
+    text-align:center;
+    box-sizing: border-box;
+}
+iframe{
+    width: 450px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #777;
+}
 @media (max-width: 600px){
+    iframe{
+        width: 390px;
+        height: 200px;
+        margin: 0 auto;
+        background-color: #777;
+    }
+    #nav-bar ul{
+        right: 0;
+        margin-left: 0%;
+    }
 
+    #img{
+        width: 390px;
+        margin-bottom: 20px;
+     
+    }
+    .nosotros{
+       
+        font-size: 16px;
+        text-align: center;
+    }
+    #title{
+        margin-top:90px;
+        text-align: center;
+        font-size: 30px;
+    }
 }
 
 #form{
     display: flex;
     align-content: center;
+    text-align: center;
+}
+#button li{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 10px;
+}
+#button li:hover{
+  
+    color: tomato;
+  
+}
+
+
+
+#formas{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+#formas img{
+    width: 50px;
+    height: auto;
+}
+
+.rectangular{
+    display: inline-block;
+    color: cadetblue;
+}
+.cuadrada{
+    display: inline-block;
+    color: cadetblue;
+    margin: 20px;
+}
+.piloto{
+    display: inline-block;
+    color: cadetblue;
+}
+
+
+#marcas{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+#marcas img{
+    width: 50px;
+    height: auto;
+}
+.ray{
+    display: inline-block;
+    color: cadetblue;
+}
+.oacley{
+    display: inline-block;
+    color: cadetblue;
+    margin: 20px;
+}
+.michael{
+    display: inline-block;
+    color: cadetblue;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: #f0f0f0;
+    text-align: center;
+ 
+}
+footer h6{
+margin-top: 60px;
+
 }
