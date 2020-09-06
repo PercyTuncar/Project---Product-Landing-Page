@@ -35,6 +35,15 @@ h2{
     width: 100%;
     display: block;
     text-align: center;
+    margin-top: 50px;
+    font-size: 17px;
+}
+#visión p{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    text-align: center;
 }
 form h4{
     display: list-item;
@@ -108,7 +117,7 @@ iframe{
 }
 
 #form{
-    margin-top: 20px;
+    margin-top: 60px;
     display: block;
     align-content: center;
     text-align: center;
@@ -132,7 +141,7 @@ iframe{
     width: 100%;
     height: auto;
     text-align: center;
-    
+    margin-top: 50px;
 }
 #formas img{
     width: 50px;
@@ -155,11 +164,19 @@ iframe{
 
 
 #marcas{
+    margin-top: 60px;
     display: inline-block;
     width: 100%;
     height: auto;
     text-align: center;
-    
+    font-size: 17px;
+}
+#marcas p{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    text-align: center;
 }
 #marcas img{
     width: 50px;
@@ -187,7 +204,19 @@ iframe{
     text-align: center;
  
 }
+.footer p{
+    display: inline-flex;
+    margin-top: 20px;
+}
 footer h6{
 margin-top: 50px;
+margin-bottom: -34px;
 
+}
+p{
+    color: #535353;
+}
+h6 p{
+    color: #f5f5f5;
+    font-size: 12px;
 }
